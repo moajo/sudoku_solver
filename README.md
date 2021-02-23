@@ -12,3 +12,9 @@ $ cat example.txt | ./sudoku_solver.py
 9 6 4 1 3 5 8 7 2
 2 8 7 9 4 6 5 1 3
 ```
+
+To check your problem may have only 1 solution:
+
+```bash
+$ cat example.txt | ./sudoku_stochastic_uniqueness_checker.py
+```
